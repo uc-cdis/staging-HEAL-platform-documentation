@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://heal-docs-dev.io/faqs/">
+        <link rel="canonical" href="https://heal-docs-dev.io/vlmd/">
       
       <link rel="icon" href="../img/heal_logo.png">
       <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.5.3">
     
     
       
-        <title>FAQs - HEAL Platform Documentation</title>
+        <title>Variable-level Metadata Submission - HEAL Platform Documentation</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#faqs" class="md-skip">
+        <a href="#variable-level-metadata-submission" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              FAQs
+              Variable-level Metadata Submission
             
           </span>
         </div>
@@ -374,12 +374,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
       
       
       
@@ -396,8 +398,8 @@
       
         
         
-        <div class="md-nav__link md-nav__link--index ">
-          <a href="../vlmd/">Variable-level Metadata Submission</a>
+        <div class="md-nav__link md-nav__link--index md-nav__link--active">
+          <a href="./">Variable-level Metadata Submission</a>
           
             <label for="__nav_6">
               <span class="md-nav__icon md-icon"></span>
@@ -420,7 +422,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vlmd/vlmd_healdata_utils/" class="md-nav__link">
+      <a href="vlmd_healdata_utils/" class="md-nav__link">
         Generate a HEAL-compliant Data Dictionary
       </a>
     </li>
@@ -434,7 +436,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../vlmd/vlmd_submission/" class="md-nav__link">
+      <a href="vlmd_submission/" class="md-nav__link">
         Submit a Data Dictionary
       </a>
     </li>
@@ -764,21 +766,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../faqs/" class="md-nav__link">
         FAQs
       </a>
-      
     </li>
   
 
@@ -831,98 +823,23 @@
                   
 
 
-<!-- ---
-hide:
-  - navigation
-  - toc
---- -->
-
-<h1 id="faqs">FAQs<a class="headerlink" href="#faqs" title="Permanent link">&para;</a></h1>
+<h1 id="variable-level-metadata-submission">Variable-level Metadata Submission<a class="headerlink" href="#variable-level-metadata-submission" title="Permanent link">&para;</a></h1>
+<p>Data Dictionaries, which contain variable-level metadata, describe each variable within a dataset. Examples of variable-level attributes include the variable name, description (or variable label), type, format, terminology, and source.</p>
+<p>In order to submit a study’s data dictionary to the Platform, the data dictionary must conform to the HEAL <a href="https://github.com/HEAL/heal-metadata-schemas/tree/main/variable-level-metadata-schema">variable-level metadata schema</a>. The following instructions will demonstrate how to use the HEAL Data Utilities' VLMD tool to help you generate a HEAL-compliant data dictionary from your dataset or existing data dictionary.</p>
 <ol>
 <li>
-<p>What can I do on the HEAL Platform?  </p>
-<p>The HEAL Platform is a cloud-based and multifunctional web interface that provides a secure environment for discovery and analysis of HEAL results and data. Explore all functionalities <a href="../logging-in/">here</a>.  </p>
+<p><a href="vlmd_healdata_utils/">How to Generate a HEAL-compliant Data Dictionary</a></p>
 </li>
 <li>
-<p>Which datasets are currently open-access?  </p>
-<p>Find all open-access datasets <a href="../platform_request_access/#current-open-access-studies">here</a>.  </p>
-</li>
-<li>
-<p>Where can I see individual study metadata?  </p>
-<p>Individual study metadata is shown upon clicking on a study entry on the Discovery Page. Click to read the full description <a href="../platform_discovery_page/">here</a>.  </p>
-</li>
-<li>
-<p>Do I need to store my data in a particular location to participate in the HEAL platform?  </p>
-<p>You must store your data in a HEAL-compliant repository. A HEAL-compliant repository is a data repository that is NIH-supported and ideally has an API for metadata and data permissions calls.
-To help HEAL investigators in the repository selection process, the HEAL Data Stewards at RENCI/RTI have developed <a href="https://www.healdatafair.org/resources/guidance/selection">Repository Selection Criteria</a> and identified a number of recommended repositories.
-If you have questions regarding costs associated with data storage in HEAL-compliant repositories, please contact the <a href="mailto:HEALstewards@renci.org">HEAL Data Stewards</a>.</p>
-</li>
-<li>
-<p>How and where can I see if I have access to a study?  </p>
-<p>Clicking on an individual study on the Discovery Page will show in the top right corner if they are accessible to the user. To see all studies users have access to, users should navigate to the Discovery Page and select “Data Availability” - Available”. More information <a href="../platform_request_access/">here</a>.       </p>
-</li>
-<li>
-<p>I do not have access to a specific study, how can I get access?  </p>
-<p>RENCI/RTI (Renaissance Computing Institute) at the University of North Carolina at Chapel Hill establishes and manages data access contacts over all data contributors/sources. To request access to controlled data, users should contact RENCI/RTI at HEALstewards@renci.org.  </p>
-</li>
-<li>
-<p>The profile page says I have access but I don’t see it on the Discovery Page.  </p>
-<p>Please contact our <a href="mailto:heal-support@datacommons.io">help desk</a>.  </p>
-</li>
-<li>
-<p>I would like to download data files from a specific study, what do I need to do?  </p>
-<p>Users can download the studies directly from the Discovery Page as described <a href="../downloading_files/#download-data-files-from-the-discovery-page">here</a>, or, if the file size exceeds 250 MB, users need to use the Gen3-client command line tool to download data files, as described <a href="../downloading_files/#download-data-files-using-the-gen3-client">here</a>. Additional information on the Gen3-client may be found <a href="https://gen3.org/resources/user/gen3-client/">here</a>.  </p>
-</li>
-<li>
-<p>How can I get data files into the Workspace from the Discovery Page?</p>
-<p>Click <a href="../platform_discovery_page/#select-files-on-the-discovery-page-and-bring-them-to-the-workspace">here</a> to follow the steps on how to get files from the Discovery Page to the Workspace.  </p>
-</li>
-<li>
-<p>How do I find a study?  </p>
-<p>Click <a href="../platform_discovery_page/#search-features">here</a> to see possible ways to search for a study on the Discovery Page.  </p>
-</li>
-<li>
-<p>Can I download files directly from the portal?</p>
-<p>Yes, you can. Click <a href="../downloading_files/#download-data-files-from-the-discovery-page">here</a> to follow the steps to download data files from the Discovery Page. Caution: the download is limited to file sizes of 250 MB.    </p>
-</li>
-<li>
-<p>My download is not working.  </p>
-<p>Please check if your file size exceeds 250 MB. If yes, please other tools as described <a href="../downloading_files/#download-data-files-using-the-gen3-client">here</a> to download the files. Note that the current studies that have datasets of more than 250 MB are those with the following project numbers: a) cdcwonder and b) deaarcos1. If errors persist, please contact the <a href="mailto:heal-support@datacommons.io">help desk</a>.  </p>
-</li>
-<li>
-<p>My data file download using the Gen3-client gets stuck, where can I get help?  </p>
-<p>For troubleshooting, please see the Gen3-client documentation <a href="https://gen3.org/resources/user/gen3-client/">here</a>. If errors persist, contact our <a href="mailto:heal-support@datacommons.io">help desk</a>.  </p>
-</li>
-<li>
-<p>The Gen3-client shows errors, where can I get help?  </p>
-<p>To check that the client is working and to confirm the client version, type ‘gen3-client’ in the terminal. Typing ‘gen3-client help’ will display the help menu. Users must provide the full path of the tool in order for the commands to run, for example, ‘./gen3-client’ while working from the directory containing the client.<br />
-For more troubleshooting, please see the Gen3-client documentation <a href="https://gen3.org/resources/user/gen3-client/">here</a>. If errors persist, contact our <a href="mailto:heal-support@datacommons.io">help desk</a>.  </p>
-</li>
-<li>
-<p>I want to work interactively on the Tutorial Notebooks. Show me how.  </p>
-<p>Click <a href="../platform_example_analyses/#demo-how-to-find-data-and-work-on-the-tutorial-notebooks">here</a> to follow the steps of a demo.  </p>
-</li>
-<li>
-<p>What are the current Tutorial Notebooks?  </p>
-<p>Click <a href="../platform_example_analyses/#currently-available-notebooks">here</a> to see a list of currently available Notebooks in Python and R.  </p>
-</li>
-<li>
-<p>How do I work with these Tutorial Notebooks?  </p>
-<p>Click <a href="../platform_example_analyses/#working-with-the-tutorial-notebooks-in-interactive-mode">here</a> to see a guide of how to work with the Tutorial Notebooks.  </p>
-</li>
-<li>
-<p>How do I link my account to a FAIR enabled repository?  </p>
-<p>Click <a href="../platform_request_access/#linking-access-to-fair-enabled-repositories">here</a> to see how to link your account to a FAIR enabled repository.  </p>
-</li>
-<li>
-<p>What do the Workspaces have to offer?  </p>
-<p>Click <a href="../platform_workspaces/#guideline-to-get-started">here</a> to see how to get started and <a href="../platform_workspaces/#environments-languages-and-tools">here</a> to see what languages, tools, and environments the workspaces have enabled.  </p>
-</li>
-<li>
-<p>I want to report a bug!  </p>
-<p>Please report any errors or bugs to our <a href="mailto:heal-support@datacommons.io">help desk</a>.  </p>
+<p><a href="vlmd_submission/">How to Submit a HEAL-compliant Data Dictionary</a></p>
 </li>
 </ol>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Note: in order to submit a data dictionary to the Platform, the study must first be registered.</p>
+<p>If you have not done so, please see our instructions on how to register your study. </p>
+<p><p align="center"><a class="md-button" href="../study-registration/">How to Register Your Study</a></p></p>
+</div>
 
 
 
@@ -943,7 +860,7 @@ For more troubleshooting, please see the Gen3-client documentation <a href="http
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../platform_tutorial_videos/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Tutorial Videos" rel="prev">
+        <a href="../cedar-getting-started/" class="md-footer__link md-footer__link--prev" aria-label="Previous: CEDAR form: Getting Started" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -952,20 +869,20 @@ For more troubleshooting, please see the Gen3-client documentation <a href="http
               <span class="md-footer__direction">
                 Previous
               </span>
-              Tutorial Videos
+              CEDAR form: Getting Started
             </div>
           </div>
         </a>
       
       
         
-        <a href="../contact/" class="md-footer__link md-footer__link--next" aria-label="Next: Contact" rel="next">
+        <a href="vlmd_healdata_utils/" class="md-footer__link md-footer__link--next" aria-label="Next: Generate a HEAL-compliant Data Dictionary" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Contact
+              Generate a HEAL-compliant Data Dictionary
             </div>
           </div>
           <div class="md-footer__button md-icon">
