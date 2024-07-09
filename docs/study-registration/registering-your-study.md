@@ -2,7 +2,7 @@
 
 !!! info
 
-    You must [request access](../requesting-access/) before you can register
+    You must [request access](requesting-access.md) before you can register
     your study.
 
     Also, if you have not already done so, create an account with
@@ -46,6 +46,7 @@ study you wish to register:
     [contact us](mailto:heal-support@datacommons.io) with those details.
 - Enter the unique ID for your study within the repository.
 - Submit your registration.
+- After you successfully register your study, the study will disappear from the HEAL Data Platform for about 24 hours while we sync the study record with the new CEDAR form. You do not need to do anything for it to reappear. 
 
 Alternate steps to register a study:
 
