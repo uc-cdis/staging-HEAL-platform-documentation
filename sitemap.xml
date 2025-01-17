@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://heal-docs-dev.io/data_sharing_resources/</loc>
+         <lastmod>2025-01-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://heal-docs-dev.io/downloading_files/</loc>
          <lastmod>2025-01-17</lastmod>
          <changefreq>daily</changefreq>
