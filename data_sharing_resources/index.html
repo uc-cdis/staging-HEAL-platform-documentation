@@ -15,7 +15,7 @@
     
     
       
-        <title>Data Sharing Guidance & Resources - HEAL Platform Documentation</title>
+        <title>Data Sharing Resources - HEAL Platform Documentation</title>
       
     
     
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Data Sharing Guidance & Resources
+              Data Sharing Resources
             
           </span>
         </div>
@@ -650,12 +650,96 @@
 
   
   
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Data Sharing Resources
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Data Sharing Resources
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#items-to-include-when-sharing-data" class="md-nav__link">
+    Items to Include When Sharing Data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#helpful-tips" class="md-nav__link">
+    Helpful Tips
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-sharing-resources" class="md-nav__link">
+    Data Sharing Resources
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    References
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
   
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
       
       
       
@@ -672,13 +756,13 @@
         
       
       
-        <label class="md-nav__link" for="__nav_9">
+        <label class="md-nav__link" for="__nav_10">
           HEAL Platform Features
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="HEAL Platform Features" data-md-level="1">
-        <label class="md-nav__title" for="__nav_9">
+        <label class="md-nav__title" for="__nav_10">
           <span class="md-nav__icon md-icon"></span>
           HEAL Platform Features
         </label>
@@ -898,10 +982,10 @@
 
 <h1 id="data-sharing-guidance-resources">Data Sharing Guidance &amp; Resources<a class="headerlink" href="#data-sharing-guidance-resources" title="Permanent link">&para;</a></h1>
 <h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
-<p>This documentation describes general principles for sharing data with the research community in a manner consistent with NIH’s 2023 Data Management and Sharing Policy, and with additional HEAL program requirements[^1]. These principles should apply to nearly all HEAL repositories, enabling you to submit the resulting files directly to a repository. </p>
+<p>This documentation describes general principles for sharing data with the research community in a manner consistent with NIH’s 2023 Data Management and Sharing Policy, and with additional HEAL program requirements<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. These principles should apply to nearly all HEAL repositories, enabling you to submit the resulting files directly to a repository. </p>
 <p>As you’re reading this document, please keep the following points in mind:</p>
 <ol>
-<li>The best way to understand the administrative requirements (both NIH and HEAL) for data sharing is that they are intended to make data Findable, Accessible, Interoperable, and Reusable (FAIR)[^2]. Our approach to data sharing is heavily influenced by these principles.</li>
+<li>The best way to understand the administrative requirements (both NIH and HEAL) for data sharing is that they are intended to make data Findable, Accessible, Interoperable, and Reusable (FAIR)<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. Our approach to data sharing is heavily influenced by these principles.</li>
 <li>While data sharing may seem like an additional burden, following good data sharing practices can actually make you and your lab more efficient by helping you to organize and document your data, thereby making things easier for your research staff, reducing the chance of errors, and making it easier to collaborate with colleagues.</li>
 <li>Following good data sharing practices does not have to be difficult; a big part of it comes down merely to identifying the right technologies and learning to use them effectively. That said, we recognize that all of this can seem daunting at first. To help avoid this, we have organized these requirements into minimal requirements that provide the greatest return on investment and may be accomplished with modest effort, and optional steps that, when possible, can provide additional scientific and analytic value. </li>
 </ol>
@@ -958,9 +1042,6 @@
 <li>Reference to corresponding publication, if applicable</li>
 </ol>
 </li>
-</ol>
-<!-- unable to mix numbers and letters in standard markdown -->
-<ol>
 <li><strong>Data must be valid when checked programmatically against the corresponding schema</strong>. A useful way to think about a data dictionary (or more generally, VLMD) is that it represents a set of assertions about a dataset. The validity of this assertion can be checked automatically using available software tools (e.g., Data Package). This allows: 1) data curators to confirm that curation steps are being executed correctly, 2) secondary data users to verify that there have been no changes or modifications made when they receive the data, and 3) users to harmonize these data with additional data. While many people are used to using data dictionaries in a more formal way, the HEAL Ecosystem is working to facilitate programmatic use of these documents.</li>
 </ol>
 <p><strong>For human subjects studies</strong>:</p>
@@ -994,8 +1075,17 @@ f. All missing values should be consistently coded using a clearly defined set o
 <li><a href="https://sharing.nih.gov/data-management-and-sharing-policy/data-management">NIH Data Management Resource</a></li>
 </ul>
 <h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
-<p>[^1]: National Institutes of Health (2020). Final NIH Policy for Data Management and Sharing. <a href="https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html">https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html</a>.
-[^2]: Wilkinson, M.D., Dumontier, M., Aalbersberg, Ij.J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L.B., Bourne, P.E., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3, 160018. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>National Institutes of Health (2020). Final NIH Policy for Data Management and Sharing. <a href="https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html">https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html</a>.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Wilkinson, M.D., Dumontier, M., Aalbersberg, Ij.J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L.B., Bourne, P.E., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data 3, 160018. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 
@@ -1011,6 +1101,42 @@ f. All missing values should be consistently coded using a clearly defined set o
       </main>
       
         <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../reporting-repo/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Reporting Repository Selection and Data Availability" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Reporting Repository Selection and Data Availability
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../platform_discovery_page/" class="md-footer__link md-footer__link--next" aria-label="Next: Discovery Page" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Discovery Page
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
