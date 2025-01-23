@@ -8,14 +8,14 @@
       
       
       
-        <link rel="canonical" href="https://heal-docs-dev.io/data_sharing_resources/">
+        <link rel="canonical" href="https://heal-docs-dev.io/data_sharing_guidance/">
       
       <link rel="icon" href="../img/heal_logo.png">
       <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.5.3">
     
     
       
-        <title>Data Sharing Resources - HEAL Platform Documentation</title>
+        <title>Data Sharing Guidance - HEAL Platform Documentation</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#data-sharing-guidance-resources" class="md-skip">
+        <a href="#packaging-your-data-for-success" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Data Sharing Resources
+              Data Sharing Guidance
             
           </span>
         </div>
@@ -566,15 +566,19 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" checked>
       
       
       
+        
+          
         
           
         
@@ -638,16 +642,8 @@
 
             
           
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
+            
+              
   
   
     
@@ -662,12 +658,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Data Sharing Resources
+          Data Sharing Guidance
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Data Sharing Resources
+        Data Sharing Guidance
       </a>
       
         
@@ -693,8 +689,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#items-to-include-when-sharing-data" class="md-nav__link">
-    Items to Include When Sharing Data
+  <a href="#data-packaging-what-to-share-and-when" class="md-nav__link">
+    Data Packaging: What to Share and When
   </a>
   
 </li>
@@ -727,6 +723,13 @@
     </li>
   
 
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
     
       
       
@@ -739,7 +742,7 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
       
       
       
@@ -756,13 +759,13 @@
         
       
       
-        <label class="md-nav__link" for="__nav_10">
+        <label class="md-nav__link" for="__nav_9">
           HEAL Platform Features
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="HEAL Platform Features" data-md-level="1">
-        <label class="md-nav__title" for="__nav_10">
+        <label class="md-nav__title" for="__nav_9">
           <span class="md-nav__icon md-icon"></span>
           HEAL Platform Features
         </label>
@@ -938,8 +941,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#items-to-include-when-sharing-data" class="md-nav__link">
-    Items to Include When Sharing Data
+  <a href="#data-packaging-what-to-share-and-when" class="md-nav__link">
+    Data Packaging: What to Share and When
   </a>
   
 </li>
@@ -980,19 +983,20 @@
                   
 
 
-<h1 id="data-sharing-guidance-resources">Data Sharing Guidance &amp; Resources<a class="headerlink" href="#data-sharing-guidance-resources" title="Permanent link">&para;</a></h1>
+<h1 id="packaging-your-data-for-success">Packaging Your Data for Success<a class="headerlink" href="#packaging-your-data-for-success" title="Permanent link">&para;</a></h1>
 <h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
-<p>This documentation describes general principles for sharing data with the research community in a manner consistent with NIH’s 2023 Data Management and Sharing Policy, and with additional HEAL program requirements<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. These principles should apply to nearly all HEAL repositories, enabling you to submit the resulting files directly to a repository. </p>
-<p>As you’re reading this document, please keep the following points in mind:</p>
+<p>This documentation describes general principles for sharing data with the research community in a manner consistent with NIH's 2023 Data Management and Sharing Policy, and with additional HEAL program requirements<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. These principles should apply to nearly all HEAL-compliant repositories, enabling you to submit the resulting files directly to a repository. </p>
+<p>Why align with requirements to manage and share your data?:</p>
 <ol>
-<li>The best way to understand the administrative requirements (both NIH and HEAL) for data sharing is that they are intended to make data Findable, Accessible, Interoperable, and Reusable (FAIR)<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. Our approach to data sharing is heavily influenced by these principles.</li>
-<li>While data sharing may seem like an additional burden, following good data sharing practices can actually make you and your lab more efficient by helping you to organize and document your data, thereby making things easier for your research staff, reducing the chance of errors, and making it easier to collaborate with colleagues.</li>
-<li>Following good data sharing practices does not have to be difficult; a big part of it comes down merely to identifying the right technologies and learning to use them effectively. That said, we recognize that all of this can seem daunting at first. To help avoid this, we have organized these requirements into minimal requirements that provide the greatest return on investment and may be accomplished with modest effort, and optional steps that, when possible, can provide additional scientific and analytic value. </li>
+<li>NIH and HEAL requirements make data Findable, Accessible, Interoperable, Reusable (FAIR).<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></li>
+<li>Following good data sharing practices can make your lab more efficient by helping you to organize and document your data, reducing the chance of errors, and making individual and collaborative work with colleagues easy and organized; and</li>
+<li>Identifying and learning to use the right technologies greatly reduces data management and sharing burdens.</li>
 </ol>
-<h2 id="items-to-include-when-sharing-data">Items to Include When Sharing Data<a class="headerlink" href="#items-to-include-when-sharing-data" title="Permanent link">&para;</a></h2>
-<p>A common question investigators have when asked to share data is “What exactly should I share?” The 2023 NIH policy takes a fairly broad view, defining scientific data as “the recorded factual material commonly accepted in the scientific community as of sufficient quality to validate and replicate research findings.” Note that this definition ties data sharing directly to your own analytic work (i.e., the data you share should permit someone to replicate your results) and includes not only data but other materials necessary for replication such as analysis code. </p>
-<p>If access to the full data must be restricted to protect confidentiality, we would strongly urge you to consider creating another version containing only a subset of the data that can be shared openly. It is well established that openly accessible datasets are used much more frequently than restricted datasets.</p>
-<p>Finally, when considering which information to share, you should keep your data sharing goal in mind:</p>
+<p>To help you get started, we have identified minimal requirements and optional best practices to increase scientific and analytic value to your datasets. </p>
+<h2 id="data-packaging-what-to-share-and-when">Data Packaging: What to Share and When<a class="headerlink" href="#data-packaging-what-to-share-and-when" title="Permanent link">&para;</a></h2>
+<p>The 2023 NIH policy defines scientific data that must be shared as "the recorded factual material commonly accepted in the scientific community as of sufficient quality to validate and replicate research findings." This definition ties data sharing directly to your own analytic work (i.e., the data you share should permit someone to replicate your results) and includes not only data but other materials necessary for replication such as analysis code. </p>
+<p>If access to the full data must be restricted to protect confidentiality, consider creating another version containing only a subset of the data that can be shared openly. It is well established that openly accessible datasets are used much more frequently than restricted datasets.</p>
+<p>What is your data sharing goal?:</p>
 <ul>
 <li><strong>Replicating published analyses</strong>: sharing all (and only) the data needed to replicate findings in a specific published work (e.g., paper, poster, report); this may be a subset of data that are generated over the course of the study.</li>
 <li><strong>Dataset sharing</strong>: sharing the entire dataset that is generated over the course of a study; this option is the most efficient way to share data when multiple works associated with the study will be published.</li>
@@ -1005,13 +1009,13 @@
 <li><strong>Variable-level metadata</strong>: One or more files that collectively represent a list of all variables included in the dataset, including the variable title, variable description, and measurement units (if not labeled elsewhere).</li>
 <li><strong>Data file(s)</strong>: These can be the raw data files or the analytic dataset. It is best practice to share the data in a non-proprietary format when possible (e.g., as a .csv file instead of .xls)</li>
 </ol>
-<p>As one example, the materials shared for the study <a href="https://datashare.nida.nih.gov/study/nida-ctn-0095a2">NIDA-CTN-0095A2: Reducing Stigma toward People with Opioid Use Disorder among Primary Care Clinicians at NIDA Data Share</a> are an example of a high-quality dataset accompanied by sufficient information to access and replicate published findings. </p>
-<p><strong>Optional Items</strong>:</p>
-<p><em>The following steps are optional but can add substantial scientific and analytic value.</em></p>
+<p>Example of a high-quality dataset accompanied by sufficient information to access and replicate published findings: <a href="https://datashare.nida.nih.gov/study/nida-ctn-0095a2">NIDA-CTN-0095A2: Reducing Stigma toward People with Opioid Use Disorder among Primary Care Clinicians at NIDA Data Share</a></p>
+<p><strong>Best Practices - A Little More Goes a Long Way</strong>:</p>
+<p><em>The following steps can add substantial scientific and analytic value.</em></p>
 <ol>
 <li>Combine data and metadata files into a <em><a href="https://datapackage.org/">data package</a></em>—a specially organized folder containing one or more data files and corresponding JSON- or YAML-formatted metadata files. Data packages make it easy to validate data, to transform data, to read data into analytic software packages, and to share data.</li>
 <li>Include protocol(s) for executing the study, including procedures for collecting and managing the data (e.g., data cleaning and curation, QC, etc.).</li>
-<li>Include additional variable-level metadata, such as links to the source of specific items (e.g., Common Data Element (CDE) repository, NIH’s PhenX Toolkit, or a specific measurement instrument).</li>
+<li>Include additional variable-level metadata, such as links to the source of specific items (e.g., Common Data Element (CDE) repository, NIH's PhenX Toolkit, or a specific measurement instrument).</li>
 <li>Include pipelines to validate skip patterns (e.g., instances where a specific item is skipped based on responses to a previous item) or other assertions about the data.</li>
 <li>Include code to perform specific data transformations (e.g., generate derived variables or reorganize data to facilitate a specific analysis).</li>
 <li>Include code that may be executed to translate the CSV file(s) and corresponding metadata into other commonly used formats such as Stata, R, SAS, Pandas/Python, etc.</li>
@@ -1022,7 +1026,7 @@
 <p><strong>Recommended file formats</strong>:</p>
 <ol>
 <li>
-<p><strong>Data files should be in CSV format</strong>, typically with commas or tabs as delimiters and a header row containing column (i.e., variable) names. Nearly all software for data collection and/or data management is capable of exporting to CSV format, and this ensures that the data may be read by the widest possible range of software, both now and in the future. Data representing responses from a fixed set of choices (e.g., Yes/No items or individual items from a Likert scale) may be recorded as text labels (e.g., “Yes” or “No”) or as integer codes, where the mapping between integers and labels is provided in the schema (see Item 2 immediately below).</p>
+<p><strong>Data files should be in CSV format</strong>, typically with commas or tabs as delimiters and a header row containing column (i.e., variable) names. Nearly all software for data collection and/or data management is capable of exporting to CSV format, and this ensures that the data may be read by the widest possible range of software, both now and in the future. Data representing responses from a fixed set of choices (e.g., Yes/No items or individual items from a Likert scale) may be recorded as text labels (e.g., "Yes" or "No") or as integer codes, where the mapping between integers and labels is provided in the schema (see Item 2 immediately below).</p>
 </li>
 <li>
 <p><strong>Variable-level metadata (VLMD) should be provided in machine-readable form</strong>. The easiest way to do this is with a JSON- or YAML-format schema, though a data dictionary in CSV format may be considered acceptable instead (this can then be translated automatically to JSON). Per the HEAL VLMD schema, at a minimum, VLMD files must include the variable name and description. It is best practice and strongly recommended to also include for each variable a title (i.e., a human readable label for the variable), datatype (e.g., integer, float, date, string, boolean, etc.), and possible responses for each variable (e.g., range, list of choices, or constraints). Examples of valid and invalid VLMD files are available here. </p>
@@ -1042,25 +1046,25 @@
 <li>Reference to corresponding publication, if applicable</li>
 </ol>
 </li>
-<li><strong>Data must be valid when checked programmatically against the corresponding schema</strong>. A useful way to think about a data dictionary (or more generally, VLMD) is that it represents a set of assertions about a dataset. The validity of this assertion can be checked automatically using available software tools (e.g., Data Package). This allows: 1) data curators to confirm that curation steps are being executed correctly, 2) secondary data users to verify that there have been no changes or modifications made when they receive the data, and 3) users to harmonize these data with additional data. While many people are used to using data dictionaries in a more formal way, the HEAL Ecosystem is working to facilitate programmatic use of these documents.</li>
+<li><strong>Data must be valid when checked programmatically against the corresponding schema</strong>. A useful way to think about a data dictionary (or more generally, VLMD) is that it represents a set of assertions about a dataset. The validity of this assertion can be checked automatically using available software tools (e.g., Data Package). This allows: 1) data curators to confirm that curation steps are being executed correctly, 2) secondary data users to verify that there have been no changes or modifications made when they receive the data, and 3) users to harmonize these data with additional data.</li>
 </ol>
 <p><strong>For human subjects studies</strong>:</p>
 <ol>
 <li><strong>Investigators engaged in human subjects research are responsible for ensuring that they have approval to share data and that the data are deidentified and shared in a manner consistent with their IRB requirements and language used in their consent form(s). In general</strong>:<ol>
 <li>All direct identifiers must be removed. This is slightly less restrictive than using the Safe Harbor method, as dates may be preserved (but must be shifted, as described below) as well as geographic units smaller than state (e.g., zip code or census tract).</li>
 <li>All dates must be shifted to reduce the risk of deductive disclosure. For example, those using REDCap to collect data have the option of shifting dates by a random amount between 0 and 364 days back in time, with a constant shift being used for all dates pertaining to the same individual. </li>
-<li>Any open-ended responses must be removed; these can be coded into a clearly defined set of categories if it’s necessary to preserve the information.</li>
+<li>Any open-ended responses must be removed; these can be coded into a clearly defined set of categories if it's necessary to preserve the information.</li>
 <li>Local participant IDs must be replaced with standardized, anonymous identifiers; this breaks any link between local records and the shared dataset.</li>
 </ol>
 </li>
 <li><strong>The resulting dataset must be reviewed according to local institutional policies (e.g., IRB) for any additional potential disclosure risk.
 f. All missing values should be consistently coded using a clearly defined set of categories such as the following</strong>:<ul>
-<li>“Don’t know”</li>
-<li>“Refused”</li>
-<li>“No answer” (i.e., left blank by participant)</li>
-<li>“Legitimately skipped” (i.e., not applicable)</li>
-<li>Not collected” (i.e., item not administered)</li>
-<li>“Missing in error” (for any other reason)</li>
+<li>"Don't know"</li>
+<li>"Refused"</li>
+<li>"No answer" (i.e., left blank by participant)</li>
+<li>"Legitimately skipped" (i.e., not applicable)</li>
+<li>Not collected" (i.e., item not administered)</li>
+<li>"Missing in error" (for any other reason)</li>
 </ul>
 </li>
 </ol>
@@ -1073,6 +1077,7 @@ f. All missing values should be consistently coded using a clearly defined set o
 <li><a href="https://www.healdatafair.org/resources/guidance/selection">HEAL-compliant repositories</a></li>
 <li><a href="https://sharing.nih.gov/data-management-and-sharing-policy/about-data-management-and-sharing-policies/data-management-and-sharing-policy-overview#after">NIH Data Management &amp; Sharing Policy Overview</a></li>
 <li><a href="https://sharing.nih.gov/data-management-and-sharing-policy/data-management">NIH Data Management Resource</a></li>
+<li><a href="https://curating4reproducibility.org/">Curating Research Artifacts to Support Scientific Integrity</a></li>
 </ul>
 <h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
 <div class="footnote">
