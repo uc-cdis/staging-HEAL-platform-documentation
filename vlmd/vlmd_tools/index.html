@@ -1076,11 +1076,13 @@ This module checks (validates) an existing VLMD file to see if it follows the HE
 <span class="k">try</span><span class="p">:</span>  
     <span class="n">vlmd_validate</span><span class="p">(</span><span class="n">input_file</span><span class="p">)</span>
 
-<span class="k">except</span> <span class="n">ValidationError</span> <span class="k">as</span> <span class="n">v_err</span><span class="p">:</span>  
-  <span class="c1"># handle validation error</span>
+<span class="k">except</span> <span class="n">ValidationError</span> <span class="k">as</span> <span class="n">v_err</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">v_err</span><span class="p">)</span>
+    <span class="c1"># handle validation error</span>
 
-<span class="k">except</span> <span class="n">ExtractionError</span> <span class="k">as</span> <span class="n">e_err</span><span class="p">:</span>  
-  <span class="c1"># handle extraction error</span>
+<span class="k">except</span> <span class="n">ExtractionError</span> <span class="k">as</span> <span class="n">e_err</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">e_err</span><span class="p">)</span>
+    <span class="c1"># handle extraction error</span>
 </code></pre></div>
 <ul>
 <li>If your VLMD file adheres to the HEAL VLMD schema, the output from this command will include a message that says <code>Valid</code> (see highlight in the screenshot below).  </li>
