@@ -956,10 +956,6 @@
 
 
 <h1 id="generate-a-heal-compliant-data-dictionary">Generate a HEAL-compliant Data Dictionary<a class="headerlink" href="#generate-a-heal-compliant-data-dictionary" title="Permanent link">&para;</a></h1>
-<!-- !!! info
-
-     The following instructions pertain to the stand-alone, executable version of the HEAL VLMD tool as well as the use of the VLMD tool in HEAL Workspaces. These two options are recommended for users who are unfamiliar with installing Python software and/or who want to generate VLMD documents in the quickest and easiest way possible. If you would like to install and integrate the VLMD tool into an existing, local pipeline, please see the HEAL Data Utilities on [GitHub](https://github.com/heal/healdata-utils) or [PyPi](https://pypi.org/project/healdata-utils/) for more information.
- -->
 <p>A tool is available to help investigators generate HEAL-compliant variable-level metadata (VLMD) from an existing data dictionary or codebook. This VLMD tool - available as part of the HEAL Software Development Kit (HEAL-SDK) - takes CSV, TSV, JSON or REDCap CSV export files as inputs, and outputs a HEAL-compliant JSON VLMD file that can be uploaded to and associated with your study on the HEAL Data Platform.  </p>
 <p>The instructions below describe how to either install and use the VLMD tool on your local machine, or how to use the tool in HEAL workspaces (no installation needed!).  </p>
 <h2 id="option-1-use-the-vlmd-tool-on-your-local-machine">Option 1: Use the VLMD Tool on your Local Machine<a class="headerlink" href="#option-1-use-the-vlmd-tool-on-your-local-machine" title="Permanent link">&para;</a></h2>
@@ -990,7 +986,7 @@ Run the command <strong><code>heal vlmd --help</code></strong></p>
 The VLMD tool can be used to extract HEAL-compliant VLMD from a CSV, TSV, JSON or REDCap CSV data dictionary. Use the following command to extract VLMD from an input file (here, the example file is called <code>vlmd_for_extraction.csv</code>):  </p>
 <p><strong><code>heal vlmd extract --input_file "vlmd_for_extraction.csv" --title "The dictionary title" --output_dir "./output"</code></strong></p>
 <ul>
-<li>Note that, if you are extracting VLMD from a JSON file that already includes a root-level title field, the root-level title will be included in the extracted VLMD, so the title argument in the command can be omitted.  </li>
+<li>Note that, if you are extracting VLMD from a JSON file that already includes a root-level title field, the root-level title will be included in the extracted VLMD, so the <code>title</code> argument in the command can be omitted.  </li>
 <li>Upon successful extraction, the resulting VLMD file will be saved to a subfolder called <code>output</code>. (See yellow highlight below)  </li>
 <li>
 <p>If you get an <code>input file does not exist</code> error, try including the path in the filename argument, as shown in the example below. To find the path:  </p>
