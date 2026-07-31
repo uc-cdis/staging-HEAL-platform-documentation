@@ -1,9 +1,9 @@
 
 # Example Analyses
 
-[The Example Analyses page](https://uc-cdis.github.io/heal-notebooks-pages/) contains a collection of view-only tutorial Jupyter Notebooks that provide demo analyses of datasets published on the HEAL platform.
+[The Example Analyses page](https://uc-cdis.github.io/heal-notebooks-pages/) contains a collection of view-only tutorial Jupyter notebooks that provide demo analyses of datasets published on the HEAL platform.
 
-## Why tutorial Notebooks?
+## Why tutorial notebooks?
 
 These notebooks will allow users to learn how to analyze and visualize data available on the HEAL platform - without having to take the additional steps of finding and exporting the data used by the tutorial first.
 
@@ -20,7 +20,7 @@ These tutorial notebooks are meant to:
 
 The “Example Analyses” tab will be regularly updated with new and exciting tutorial data analysis notebooks, as more datasets are published and brought together in novel ways on the Platform.
 
-## Using Notebooks in a HEAL Workspace
+## Using notebooks in a HEAL Workspace
 
 ### Log in to the HEAL Data Platform
 
