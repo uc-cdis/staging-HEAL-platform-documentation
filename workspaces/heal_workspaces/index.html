@@ -596,16 +596,56 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#analysis-tools-available-in-the-heal-workspace" class="md-nav__link">
+    Analysis Tools Available in the HEAL Workspace
+  </a>
+  
+    <nav class="md-nav" aria-label="Analysis Tools Available in the HEAL Workspace">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#environments-languages-and-tools" class="md-nav__link">
     Environments, Languages, and Tools
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#python-3-and-r-in-jupyter" class="md-nav__link">
     Python 3 and R in Jupyter
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workspace-software-library" class="md-nav__link">
+    Workspace Software Library
+  </a>
+  
+    <nav class="md-nav" aria-label="Workspace Software Library">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#loading-and-unloading-modules-for-use-in-the-workspace" class="md-nav__link">
+    Loading and Unloading Modules for use in the Workspace
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-additional-modules" class="md-nav__link">
+    Installing Additional Modules
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -948,16 +988,56 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#analysis-tools-available-in-the-heal-workspace" class="md-nav__link">
+    Analysis Tools Available in the HEAL Workspace
+  </a>
+  
+    <nav class="md-nav" aria-label="Analysis Tools Available in the HEAL Workspace">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#environments-languages-and-tools" class="md-nav__link">
     Environments, Languages, and Tools
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#python-3-and-r-in-jupyter" class="md-nav__link">
     Python 3 and R in Jupyter
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workspace-software-library" class="md-nav__link">
+    Workspace Software Library
+  </a>
+  
+    <nav class="md-nav" aria-label="Workspace Software Library">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#loading-and-unloading-modules-for-use-in-the-workspace" class="md-nav__link">
+    Loading and Unloading Modules for use in the Workspace
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-additional-modules" class="md-nav__link">
+    Installing Additional Modules
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1003,8 +1083,9 @@ Workspaces are secure data analysis environments in the cloud that can access da
 <p>After navigating to <a href="https://healdata.org/portal/workspace">https://healdata.org/portal/workspace</a>, you will discover a list of pre-configured virtual machine (VM) images, as shown below.</p>
 <p><img alt="Screenshot of different workspace images" src="../../img/HEAL_workspaces_flavors.png" /></p>
 <ul>
-<li><strong>(Generic) Jupyter Notebook with R kernel:</strong> Choose this VM if you are familiar with setting up Python- or R-based Notebooks, or if you just exported one or multiple studies from the Discovery Page and want to start your custom analysis.</li>
-<li><strong>Tutorial Notebooks:</strong> Explore our <a href="https://uc-cdis.github.io/heal-notebooks-pages/">Jupyter Notebook tutorials</a> written in Python or R, which analyze data pulled from various sources on the HEAL Data Platform These are excellent resources for code to use to analyze data from HEAL, and examples that illustrate the variety of data and analyses available through HEAL.</li>
+<li><strong>JupyterLab with Software Library:</strong> This workspace VM is suitable for use with Python notebooks. If you just exported data from one or multiple studies from the Discovery Page and want to start your custom analysis with Python, select this VM. To facilitate your data analysis, it has a collection of Python software packages pre-installed and ready for import, and you can install additional packages. If you have your own Stata license, you can use it in this workspace VM.  </li>
+<li><strong>JupyterLab with Python and R Kernels:</strong> This workspace VM is suitable for use with R and Python notebooks. If you just exported data from one or multiple studies from the Discovery Page and want to start your custom analysis with R, select this VM. You can install R packages for analysis.  </li>
+<li><strong>JupyterLab with Shared Stata License:</strong> For users who do not have their own Stata license but wish to do Stata analyses in the workspace, we provide a limited shared license in this VM.</li>
 </ul>
 </li>
 <li>
@@ -1026,8 +1107,8 @@ Workspaces are secure data analysis environments in the cloud that can access da
 </ul>
 </li>
 <li>
-<p>Start a new notebook under “Notebook” in the Launcher tab. Click the tiles in the launcher and choose between Python 3 or R Studio as the base programming language.</p>
-<p><em>Note: You can open and run multiple notebooks in your workspace; however, the generic, tutorial and nextflow workspace images are currently separate Docker images. There is no functionality to combine them or run nextflow in the Tutorial or Generic images. This may be available in the future, after further testing and development activities.</em></p>
+<p>Start a new notebook under “Notebook” in the Launcher tab. Click the tiles in the launcher and choose between Python 3 or R Studio (where available) as the base programming language.</p>
+<p><em>Note: You can open and run multiple notebooks in your workspace; however, each workspace workspace image is a  separate Docker images. There is no functionality to combine them.</em></p>
 <p><img alt="Start a new notebook under “Notebook” in the Launcher tab" src="../../img/HEAL_workspaces_nb_launcher.png" /></p>
 </li>
 <li>
@@ -1035,7 +1116,7 @@ Workspaces are secure data analysis environments in the cloud that can access da
 <p>Results, including plots, tables, and graphics, can be generated in the workspace and downloaded as files.</p>
 </li>
 <li>
-<p>Do not forget to terminate your workspace when you are done with your session. Unterminated workspaces can continue to accrue computational costs. <strong>Note: workspaces automatically shut down after 90 minutes of <a href="#automatic-workspace-shutdown">idle time</a>.</strong></p>
+<p>Do not forget to terminate your workspace when you are done with your session. Unterminated workspaces can continue to accrue computational costs. <strong>Note: workspaces automatically shut down after 60 minutes of <a href="#automatic-workspace-shutdown">idle time</a>.</strong></p>
 </li>
 </ol>
 <p><img alt="Screenshot for terminating your workspace" src="../../img/HEAL_workspaces_terminate.png" style="height:200px" /></p>
@@ -1047,29 +1128,42 @@ Workspaces are secure data analysis environments in the cloud that can access da
 <p><img alt="Save the notebook under “File” - &quot;Save Notebook as&quot;" src="../../img/HEAL_workspaces_nb_save.png" style="height:400px" /></p>
 <p>You can then <strong>download</strong> notebooks by clicking "File" - "Download", as shown below. Download the notebook, for example, as ".ipynb".</p>
 <p><img alt="Download notebook" src="../../img/HEAL_workspaces_nb_download.png" style="height:400px" /></p>
-<h2 id="environments-languages-and-tools">Environments, Languages, and Tools<a class="headerlink" href="#environments-languages-and-tools" title="Permanent link">&para;</a></h2>
-<p>The following <strong>environments</strong> are available in the workspaces:</p>
+<h2 id="analysis-tools-available-in-the-heal-workspace">Analysis Tools Available in the HEAL Workspace<a class="headerlink" href="#analysis-tools-available-in-the-heal-workspace" title="Permanent link">&para;</a></h2>
+<h3 id="environments-languages-and-tools">Environments, Languages, and Tools<a class="headerlink" href="#environments-languages-and-tools" title="Permanent link">&para;</a></h3>
+<p>The following <strong>environments</strong> are available in all the workspace VMs:</p>
 <ul>
 <li>Jupyter Lab</li>
 </ul>
 <p><img alt="Jupyter logo" src="../../img/workspace_jupyter_logo.png" style="height:100px" /></p>
 <p>The following <strong>programming languages</strong> are available in Jupyter Notebooks:</p>
 <ul>
-<li>R</li>
 <li>Python 3</li>
+<li>R (in some workspace VMs)</li>
 </ul>
 <p>The following <strong>tools</strong> are available in Jupyter Notebooks:</p>
 <ul>
 <li>GitHub (<a href="https://docs.github.com/en">read GitHub documentation</a>)</li>
 </ul>
-<h2 id="python-3-and-r-in-jupyter">Python 3 and R in Jupyter<a class="headerlink" href="#python-3-and-r-in-jupyter" title="Permanent link">&para;</a></h2>
-<p>Both Python 3 and R are available in Jupyter Notebooks.</p>
-<p>Basic Python or R packages , such as PyPI or CRAN, as well as many tools typical for data analysis are already included in the base workspace images without further installation required. For Python and R, users can start a new notebook with one of the tiles under "Notebook", as shown below.</p>
+<h3 id="python-3-and-r-in-jupyter">Python 3 and R in Jupyter<a class="headerlink" href="#python-3-and-r-in-jupyter" title="Permanent link">&para;</a></h3>
+<p>Both Python 3 and R are available in Jupyter Notebooks that have an R kernel.</p>
+<p>Basic Python or R packages, such as PyPI or CRAN, as well as many tools typical for data analysis are already included in the base workspace images without further installation required. For Python and R, users can start a new notebook with one of the tiles under "Notebook", as shown below.</p>
 <p><img alt="Find Python 3 or R when starting a new notebook under “New”." src="../../img/HEAL_workspaces_nb_launcher.png" /></p>
+<h3 id="workspace-software-library">Workspace Software Library<a class="headerlink" href="#workspace-software-library" title="Permanent link">&para;</a></h3>
+<p>The HEAL Workspace Software Library includes a wide variety of analytic and data management software that are pre-installed and ready to use. This includes up-to-date versions of commonly-used third-party packages for analytic systems such as Python and R<sup>(*)</sup>. Together, these will satisfy the needs of many analysts.  </p>
+<p><em><sup>*</sup> R is not yet available in the software library workspace, but will be soon.</em>  </p>
+<p>To see what software is available, you can click the gear wheel icon at the bottom of the left sidebar (see screenshot below). There, you will see a list of software packages that have been pre-loaded (i.e., ready for use) at the top of the list, as well as additional modules that are installed and available for loading below.  </p>
+<p><img alt="The icon to use the Software Library is the gearwheel on the left navigation panel" src="../../img/HEAL_workspaces_software_lib_icon.png" style="height:350px" /></p>
+<h4 id="loading-and-unloading-modules-for-use-in-the-workspace">Loading and Unloading Modules for use in the Workspace<a class="headerlink" href="#loading-and-unloading-modules-for-use-in-the-workspace" title="Permanent link">&para;</a></h4>
+<p>You can click the software modules icon (shown in the screenshot above) to view what modules are pre-loaded, load additional modules, and unload modules. Use the search bar at the top to filter available modules. For any module in the library, it <strong>must be loaded before it can be used</strong> within Python or R.  </p>
+<p>If you already have a notebook or console open and you change the list of loaded modules (either by loading additional modules or unloading any), these changes do not take effect until you have shut down and reconnected to the kernel. To do that: Click on the <code>Kernel</code> menu in the menu bar at the top of the workspace and select <code>Shut Down Kernel</code>. After the shutdown completes, select <code>Reconnect to Kernel</code> in order to relaunch and connect to a new kernel. Note that using <code>Restart Kernel</code> (in the <code>Kernel</code> menu) is not sufficient to activate the change.  </p>
+<p><img alt="You must shut down and reconnect to the kernel if you change the loaded modules when you have a notebook or console open. Click the Kernel menu, then Shut Down Kernel, then Reconnect to Kernel" src="../../img/HEAL_workspaces_shut_down_kernel.png" style="height:250px" /></p>
+<h4 id="installing-additional-modules">Installing Additional Modules<a class="headerlink" href="#installing-additional-modules" title="Permanent link">&para;</a></h4>
+<p>If there is a piece of software you would like to use that has not been pre-installed, you can usually install the software yourself. Examples of additional software you may want to install include Python or R packages. Install the software into your <code>home</code> directory (for temporary use) or persistent drive (<code>/pd</code>; for use across multiple workspace sessions) using the installation procedures appropriate for the type of software. For example, you may use <code>pip install</code> to add additional Python packages (if you're installing from within a notebook, use <code>!pip install</code>).  </p>
+<p>Note: Software that you install yourself will not appear on the list of loaded modules in the software library; they do not need to be loaded before using them. However, you can always investigate what Python packages are installed but not shown in the list of loaded modules with <code>pip list</code> (or, if you're running in a notebook, <code>!pip list</code>). This will show all modules that are not shown in the Loaded Modules list (including any you installed) but are available for import.  </p>
 <h2 id="automatic-workspace-shutdown">Automatic Workspace Shutdown<a class="headerlink" href="#automatic-workspace-shutdown" title="Permanent link">&para;</a></h2>
 <p><strong>Warning:</strong> When a HEAL Workspace reaches the STRIDES Credits limit for STRIDES Credits Workspaces, or reaches the Hard Limit for STRIDES Grant Workspaces, the Workspace will be automatically terminated. Please be sure to save any work before reaching the STRIDES Credit or Hard Limit.</p>
 <p><strong>Warning:</strong> Workspaces will also automatically shut down after 90 minutes of idle time. A pop-up window will remind users to navigate back to the workspaces page in order to save the data.</p>
-<p><img alt="2' warning for shutdown for workspace" src="../../img/workspace_shutdown_sign_2.png" /></p>
+<p><img alt="2 minute warning for shutdown for workspace" src="../../img/workspace_shutdown_sign_2.png" /></p>
 <!-- Links and Images -->
 
 
