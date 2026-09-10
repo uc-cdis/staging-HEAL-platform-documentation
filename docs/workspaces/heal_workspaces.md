@@ -98,7 +98,7 @@ Basic Python or R packages, such as PyPI or CRAN, as well as many tools typical 
 
 ### Workspace Software Library
 
-The HEAL Workspace Software Library includes a wide variety of analytic and data management software that are pre-installed and ready to use. This includes up-to-date versions of commonly-used third-party packages for analytic systems such as Python and R^(*)^. Together, these will satisfy the needs of many analysts.  
+The HEAL Workspace Software Library includes a wide variety of analytic and data management software that are pre-installed and ready to use. This includes up-to-date versions of commonly-used third-party packages for analytic systems such as Python and R^*^. Together, these will satisfy the needs of many analysts.  
 
 *<sup>\*</sup> R is not yet available in the software library workspace, but will be soon.*  
 
