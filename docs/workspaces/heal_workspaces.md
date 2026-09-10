@@ -20,6 +20,7 @@ Once you have access to workspaces, use this guide below to get started with ana
       * **JupyterLab with Software Library:** This workspace VM is suitable for use with Python notebooks. If you just exported data from one or multiple studies from the Discovery Page and want to start your custom analysis with Python, select this VM. To facilitate your data analysis, it has a collection of Python software packages pre-installed and ready for import, and you can install additional packages. If you have your own Stata license, you can use it in this workspace VM.  
       * **JupyterLab with Python and R Kernels:** This workspace VM is suitable for use with R and Python notebooks. If you just exported data from one or multiple studies from the Discovery Page and want to start your custom analysis with R, select this VM. You can install R packages for analysis.  
       * **JupyterLab with Shared Stata License:** For users who do not have their own Stata license but wish to do Stata analyses in the workspace, we provide a limited shared license in this VM.
+      * **JupyterLab with User-Licensed Stata:** Users with their own Stata license can upload it to the `home` directory and use Stata for analyses in this VM.
 
 3. Click “Launch” on any of the workspace options to spin up a copy of that VM. The status of launching the workspace is displayed after clicking on “Launch”. Note: Launching the VM may take several minutes.
 
