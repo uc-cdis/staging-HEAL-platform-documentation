@@ -82,9 +82,7 @@ plugins:
   - redirects:
       redirect_maps:
         'vlmd_submission.md': 'vlmd/index.md'
-        'vlmd/vlmd_healdata_utils.md': 'vlmd/vlmd_tools.md'
-  - mkdocs-video:
-      is_video: True
+        'vlmd/vlmd_healdata_utils.md': 'vlmd_tools.md'
 
 # TODO: add footer (this may be included in the custom jinja template?)
 #    [![](img/gen3.png)](https://ctds.uchicago.edu/gen3)[![](img/createdby.png)](https://ctds.uchicago.edu/)
